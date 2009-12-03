@@ -6,7 +6,7 @@ Group:		System/Kernel and hardware
 License:	GPLv2+
 URL:		http://www.kroah.com/linux-usb/
 Source:		http://www.kroah.com/linux-usb//%{name}-%{version}.tar.bz2
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel imagemagick
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
