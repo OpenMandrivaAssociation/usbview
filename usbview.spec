@@ -1,7 +1,7 @@
 Summary:	USB topology and device viewer
 Name:		usbview
 Version:	1.1
-Release:	%mkrel 2
+Release:	3
 Group:		System/Kernel and hardware
 License:	GPLv2+
 URL:		http://www.kroah.com/linux-usb/
