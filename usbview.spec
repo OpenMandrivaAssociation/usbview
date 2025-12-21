@@ -6,6 +6,11 @@ Group:		System/Kernel and hardware
 License:	GPLv2+
 URL:		https://www.kroah.com/linux-usb/
 Source:		http://www.kroah.com/linux-usb//%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk+2-devel imagemagick
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
